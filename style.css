@@ -1,0 +1,87 @@
+.container {
+  width: 700px;
+  height: 300px;
+  background-color: red;
+  border: 10px solid black;
+}
+.box {
+  background-color: blue;
+  width: 800px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 50px;
+  border: 20px solid red;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 50px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.main-container {
+  background-color: lime;
+  background-image: url(https://cdn-0001.qstv.on.epicgames.com/spbduGeODldQXSaWaZ/image/landscape_comp.jpeg);
+  border-end-end-radius: 2px dashed red;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 40px 0px;
+  height: 500px;
+  width: 800px;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 400px;
+    background-color: blue;
+    border: dashed yellow 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-container {
+    background-image: url(https://us-tuna-sounds-images.voicemod.net/452e96cf-4ff1-41c6-9d35-fbb171889a97-1689356553684.jpg);
+  }
+}
+
+@media (max-width: 800px) {
+  .btn {
+    background-color: red;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100px;
+    background-color: yellow;
+    border: 10px dotted green;
+  }
+  .box {
+    background-color: purple;
+    width: 700px;
+    height: 300px;
+    border-radius: 1000px;
+    margin-top: 100px;
+    border: yellow 10px dotted;
+  }
+  .btn {
+    background-color: green;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    background-color: pink;
+  }
+  .main-container {
+    background-image: url(https://media.craiyon.com/2023-10-03/ab98955e240e435b854fcb43a36a117e.webp);
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    background-color: black;
+    color: white;
+  }
+}
